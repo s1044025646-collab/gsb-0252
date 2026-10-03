@@ -1,0 +1,19 @@
+{
+  "name": "ndjson-external-sort",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows 本地大文件 NDJSON 稳定外部排序后端(API + CLI)",
+  "type": "commonjs",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\"",
+    "start": "node dist/src/server.js",
+    "cli": "node dist/src/cli.js",
+    "demo": "node dist/src/demo.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
