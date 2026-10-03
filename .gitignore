@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.ndjson-sort-data/
+.demo-data/
+.cli-data/
+*.log
